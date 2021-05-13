@@ -1,0 +1,12 @@
+*{ margin:0; padding:0;}
+
+html, body {height: 100%; margin: 0; width: 100%; background:#000;}
+
+canvas{
+display: flex;
+width: 100%; height: 100%;
+justify-content: center;
+align-items: center;
+margin:0 auto;
+}
+@media (min-width: 800px) {canvas{width:60%; height:100%;}}
